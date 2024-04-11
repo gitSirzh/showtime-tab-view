@@ -85,11 +85,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "react-native-gesture-handler": ">=2.0.0",
-    "react-native-pager-view": ">=5.0.0",
-    "react-native-reanimated": ">=2.0.0",
-    "react-native-tab-view": ">3.3.0"
+    "react-native": "*"
   },
   "engines": {
     "node": ">= 16.0.0"
