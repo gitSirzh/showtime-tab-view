@@ -85,7 +85,8 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-tab-view": ">3.3.0"
   },
   "engines": {
     "node": ">= 16.0.0"
