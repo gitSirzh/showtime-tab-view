@@ -1,14 +1,14 @@
 import React from "react";
-import { SharedValue } from "react-native-reanimated";
+import Animated from "react-native-reanimated";
 import { RefreshControlProps } from "./types";
 type RefreshControlContainerProps = {
     top: number;
     refreshHeight: number;
     overflowPull: number;
-    opacityValue: SharedValue<number>;
-    refreshValue: SharedValue<number>;
-    isRefreshing: SharedValue<boolean>;
-    isRefreshingWithAnimation: SharedValue<boolean>;
+    opacityValue: Animated.SharedValue<number>;
+    refreshValue: Animated.SharedValue<number>;
+    isRefreshing: Animated.SharedValue<boolean>;
+    isRefreshingWithAnimation: Animated.SharedValue<boolean>;
     pullExtendedCoefficient: number;
     renderContent?: (refreshProps: RefreshControlProps) => React.ReactElement;
     refreshControlColor?: string;

@@ -126,14 +126,12 @@ function CollapsibleHeaderTabView<T extends Route>(
       </View>
     );
   };
-  // @ts-ignore
+
   const { updateSceneInfo } = useSceneInfo(curIndexValue);
   return (
     <HeaderTabContext.Provider
       value={{
-        // @ts-ignore
         shareAnimatedValue,
-        // @ts-ignore
         headerTrans,
         tabbarHeight,
         expectHeight: 0,
@@ -142,13 +140,10 @@ function CollapsibleHeaderTabView<T extends Route>(
         overflowPull: 0,
         pullExtendedCoefficient: 0,
         refHasChanged: () => false,
-        // @ts-ignore
         curIndexValue,
         minHeaderHeight,
         updateSceneInfo,
-        // @ts-ignore
         isSlidingHeader,
-        // @ts-ignore
         isStartRefreshing,
         scrollStickyHeaderHeight: 0,
         scrollViewPaddingTop: 0,

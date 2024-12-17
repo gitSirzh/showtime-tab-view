@@ -1,11 +1,10 @@
-import {
+import Animated, {
   interpolate,
   useDerivedValue,
-  SharedValue,
 } from "react-native-reanimated";
 
 export const useRefreshDerivedValue = (
-  translateYValue: SharedValue<number>,
+  translateYValue: Animated.SharedValue<number>,
   {
     refreshHeight,
     overflowPull,
@@ -14,7 +13,7 @@ export const useRefreshDerivedValue = (
   }: {
     refreshHeight: number;
     overflowPull: number;
-    animatedValue: SharedValue<number>;
+    animatedValue: Animated.SharedValue<number>;
     pullExtendedCoefficient: number;
   }
 ) => {

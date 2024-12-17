@@ -1,8 +1,8 @@
-import { SharedValue } from "react-native-reanimated";
-export declare const useRefreshDerivedValue: (translateYValue: SharedValue<number>, { refreshHeight, overflowPull, animatedValue, pullExtendedCoefficient, }: {
+import Animated from "react-native-reanimated";
+export declare const useRefreshDerivedValue: (translateYValue: Animated.SharedValue<number>, { refreshHeight, overflowPull, animatedValue, pullExtendedCoefficient, }: {
     refreshHeight: number;
     overflowPull: number;
-    animatedValue: SharedValue<number>;
+    animatedValue: Animated.SharedValue<number>;
     pullExtendedCoefficient: number;
-}) => Readonly<SharedValue<void>>;
+}) => Readonly<Animated.SharedValue<void>>;
 //# sourceMappingURL=use-refresh-value.d.ts.map
